@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="85,83,0,0" TextWrapping="Wrap" Text="Дан массив размера N. Найти два элемента массива, сумма которых наиболее близка к максимуму массива, и поменять их местами." VerticalAlignment="Top" Width="654" FontSize="14"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,42,0,0" TextWrapping="Wrap" Text="Задание 4" VerticalAlignment="Top" Width="77" FontSize="14"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="260,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" FontSize="16"/>
+        <Button Content="Показать решение" HorizontalAlignment="Left" Margin="52,250,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="260,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" FontSize="16" Height="22"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="655,371,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="Задание 5" HorizontalAlignment="Left" Margin="577,371,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Label Content="Введите размер массива" HorizontalAlignment="Left" Margin="52,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbLen" HorizontalAlignment="Left" Margin="260,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"/>
+
+    </Grid>
+</Window>

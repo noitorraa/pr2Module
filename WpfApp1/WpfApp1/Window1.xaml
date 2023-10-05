@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="Wrap" Text="Дан номер некоторого года (положительное целое число). Вывести число дней в этом году, учитывая, что обычный год насчитывает 365 дней, а високосный — 366 дней. Високосным считается год, делящийся на 4, за исключением тех годов, которые делятся на 100 и не делятся на 400 (например, годы 300, 1300 и 1900 не являются високосными, а 1200 и 2000 — являются)." VerticalAlignment="Top" Height="90" FontSize="14"/>
+        <Label Content="Ввести номер года" HorizontalAlignment="Left" Margin="38,166,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="201,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234"/>
+        <Button Content="Получить результат" HorizontalAlignment="Left" Margin="39,243,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="201,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" Text="Задание 1" VerticalAlignment="Top" FontSize="14"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="657,376,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="Задание 2" HorizontalAlignment="Left" Margin="580,376,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+    </Grid>
+</Window>

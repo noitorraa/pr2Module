@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBox HorizontalAlignment="Center" Margin="0,65,0,0" TextWrapping="Wrap" Text="Сгенерировать массив размером M столбцов и N строк, содержащий числа от -10 до 10. Отобразить его пользователю. Отсортировать элементы в нем по возрастанию и по убыванию. Вывести результаты сортировки в двух таблицах. Найти максимальный и минимальный элементы массива. " VerticalAlignment="Top" Width="734"/>
+        <TextBox HorizontalAlignment="Left" Margin="347,32,0,0" TextWrapping="Wrap" Text="Задание 5" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="270,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="494,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Показать решение" HorizontalAlignment="Left" Margin="33,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.295,-5.143" Click="Button_Click"/>
+        <TextBox x:Name="tbM" HorizontalAlignment="Left" Margin="204,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66"/>
+        <TextBox x:Name="tbN" HorizontalAlignment="Left" Margin="204,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Введите количество столбцов" HorizontalAlignment="Left" Margin="14,267,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите количество строк" HorizontalAlignment="Left" Margin="14,314,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="300,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Height="86"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="556,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Height="86"/>
+        <Label Content="По убыванию" HorizontalAlignment="Left" Margin="374,219,0,0" VerticalAlignment="Top"/>
+        <Label Content="По возрастанию" HorizontalAlignment="Left" Margin="598,219,0,0" VerticalAlignment="Top"/>
+        <Label Content="MAX =" HorizontalAlignment="Left" Margin="34,376,0,0" VerticalAlignment="Top"/>
+        <Label Content="MIN =" HorizontalAlignment="Left" Margin="186,376,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.474,0.424"/>
+        <TextBox x:Name="tbMAX" HorizontalAlignment="Left" Margin="86,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64"/>
+        <TextBox x:Name="tbMIN" HorizontalAlignment="Left" Margin="238,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="64" RenderTransformOrigin="0.399,0.637"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="655,396,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <TextBox x:Name="tbEx" HorizontalAlignment="Left" Margin="168,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Height="86" FontFamily="AcadEref"/>
+
+    </Grid>
+</Window>
